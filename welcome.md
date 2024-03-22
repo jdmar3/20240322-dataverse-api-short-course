@@ -8,6 +8,13 @@ Tell us a few things about yourself.
 
 We'll compile a list of use cases for the Dataverse API and reflect on these throughout the course.
 
+- Systematic review of API
+- Better understanding of DV API as it interacts with other APIs (REDCap, Qualtrics, etc.)
+- NCBI API integrations
+- CPCRN Data Management
+- Tracking federal funding - API literacy
+- Data access for analysis
+
 ---
 
 [Return to main page](../../)
