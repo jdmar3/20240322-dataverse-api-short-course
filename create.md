@@ -21,7 +21,42 @@ Getting Data through APIs - David Gerard
 
 https://data-science-master.github.io/lectures/05_web_scraping/05_apis.html#authentication
 
-# EXAMPLES
+## EXAMPLES
+
+### View collection with httr2
+
+```R
+# Check if the package is installed
+if (!require("httr2","httpuv","jsonlite")) {
+  # Install the package if it's not already installed
+  install.packages(c("httr2","httpuv","jsonlite"))
+}
+
+# Load the package
+library("httr2","httpuv","jsonlite")
+
+# View Collection
+# Setting up variables
+server_url <- "https://demo.dataverse.org"
+id <- "tb12"
+endpoint <-"/api/dataverses"
+# Create base request
+base_req <- request(server_url)
+# Create the full request
+view_dataverse_collection <- req_url_path_append(base_req, endpoint, id)
+#Performing a dry
+req_dry_run(view_dataverse_collection)
+# Make the request
+collection_out <- req_perform(view_dataverse_collection)
+# Look at data
+resp_body_json(collection_out)
+```
+
+### Request
+
+```
+
+```
 
 ```json
 {
