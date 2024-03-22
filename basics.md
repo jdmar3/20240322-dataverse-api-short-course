@@ -2,6 +2,8 @@
 
 "The API is a way to **automate** error responses..." -- Don Sizemore, extraordinarily talented infrastructure engineer
 
+# Focus
+
 Ideally, you should feel confident being able to answer the following questions when we are done today:
 
 1. What is the purpose of a web API?
