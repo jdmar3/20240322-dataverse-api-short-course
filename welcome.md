@@ -14,6 +14,7 @@ We'll compile a list of use cases for the Dataverse API and reflect on these thr
 - CPCRN Data Management
 - Tracking federal funding - API literacy
 - Data access for analysis
+- Use APIs to pull data for data storytelling
 
 ---
 
