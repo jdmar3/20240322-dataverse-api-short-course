@@ -16,8 +16,10 @@ Please see the outline below for an overview of the topics that we will cover in
 | 1050-1100 | Break | Get a coffee | More energy required |
 | 1100-1200 | [Dataverse API Documentation](./documentation.md) | Orient ourselves to documentation. Get an API token. | 
 | 1200-1300 | Lunch | Eating food | Sate hunger, maintain adequate energy levels |
-| 1300-1350 | [Create a Dataverse collection](./create.md) |  |  |
+| 1300-1350 | [Create and submit](./create.md) | Create a collection and submit a dataset | Programmatically interact with data deposit. |
 | 1350-1400 | Break | Stand up and stretch | Sitting is hard on us | 
-| 1400-1450 | [Access data in Dataverse](./access.md) |  |  |
+| 1400-1450 | [Access](./access.md) | Download a dataset | Access data that we want to use without manually downloading it through the web interface.  |
 | 1450-1500 | Break | Lie down on the floor | It's been a long day. We're almost to the end of it. | 
-| 1500-1600 | [Putting it all together](./build.md) | Discuss how we can build things with this toolset. |
+| 1500-1600 | [Putting it all together](./build.md) | Workshop ideas | Discuss how we can build things with this toolset. |
+
+
